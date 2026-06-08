@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="goldStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+
+<stop offset="0%" stop-color="#F7C600"></stop>
+
+<stop offset="100%" stop-color="#FFD84D"></stop>
+
+</linearGradient>
+
+<linearGradient id="goldFill" x1="0%" y1="0%" x2="0%" y2="100%">
+
+<stop offset="0%" stop-color="#F7C600" stop-opacity="0.35"></stop>
+
+<stop offset="100%" stop-color="#F7C600" stop-opacity="0"></stop>
+
+</linearGradient>
+
+</defs>
+
+<!-- Grid -->
+
+<g opacity="0.08">
+
+<line x1="0" y1="80" x2="800" y2="80" stroke="white"></line>
+<line x1="0" y1="160" x2="800" y2="160" stroke="white"></line>
+<line x1="0" y1="240" x2="800" y2="240" stroke="white"></line>
+<line x1="0" y1="320" x2="800" y2="320" stroke="white"></line>
+
+</g>
+
+<!-- Area -->
+
+<polygon fill="url(#goldFill)" points="
+50,320
+150,280
+240,290
+340,210
+430,180
+540,120
+650,140
+760,40
+760,380
+50,380"></polygon>
+
+<!-- Sharp Line -->
+
+<polyline fill="none" stroke="url(#goldStroke)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="
+50,320
+150,280
+240,290
+340,210
+430,180
+540,120
+650,140
+760,40"></polyline>
+
+<!-- Points -->
+
+<circle cx="50" cy="320" r="6" fill="#F7C600"></circle>
+<circle cx="150" cy="280" r="6" fill="#F7C600"></circle>
+<circle cx="240" cy="290" r="6" fill="#F7C600"></circle>
+<circle cx="340" cy="210" r="6" fill="#F7C600"></circle>
+<circle cx="430" cy="180" r="6" fill="#F7C600"></circle>
+<circle cx="540" cy="120" r="6" fill="#F7C600"></circle>
+<circle cx="650" cy="140" r="6" fill="#F7C600"></circle>
+
+<circle cx="760" cy="40" r="10" fill="#FFD84D"></circle>
+
+</svg>
